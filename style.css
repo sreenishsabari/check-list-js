@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #00ff9e;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Rock Salt", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  overflow-x: hidden;
+}
+
+.title {
+  margin-top: 2rem;
+  color: #1e00ff;
+}
+
+.container {
+  background-color: #e1ff00;
+  width: 21.5rem;
+  height: 30rem;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 0.7fr 3.5fr;
+  justify-content: center;
+  margin-bottom: 3rem;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  padding: 1rem;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.checkListBox1 {
+  height: 100%;
+  border-bottom: 1px solid black;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkListBox2 {
+  height: 100%;
+  border-bottom: 1px solid black;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkListBox3 {
+  height: 100%;
+  border-bottom: 1px solid black;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkListBox4 {
+  height: 100%;
+  border-bottom: 1px solid black;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkListBox5 {
+  height: 100%;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listitem1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.listitem2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.listitem3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.listitem4 {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.listitem5 {
+  border-bottom: none;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* checked list */
+.checkedList {
+  background-color: #ff0061;
+  text-decoration: line-through;
+}
